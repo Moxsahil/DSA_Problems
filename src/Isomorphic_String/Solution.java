@@ -13,7 +13,7 @@ public class Solution {
 
         for(int i = 0; i < s.length(); i++){
             char charS = s.charAt(i);
-            char charT = s.charAt(i);
+            char charT = t.charAt(i);
 
             if(mapST.containsKey(charS)){
                 if(mapST.get(charS) != charT){
@@ -28,7 +28,7 @@ public class Solution {
                     return false;
                 }
             } else {
-                mapST.put(charT, charS);
+                mapTS.put(charT, charS);
             }
         }
         return true;
