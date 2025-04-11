@@ -61,7 +61,7 @@ public class Solution {
 
         ListNode result = sol.totalSum(l1, l2);
 
-        System.out.println("The total sum of LinkedList element is : ");
+        System.out.print("The total sum of LinkedList element is : ");
 
         printList(result);
     }
