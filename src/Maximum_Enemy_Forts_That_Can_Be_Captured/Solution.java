@@ -18,7 +18,7 @@ public class Solution {
         int n = forts.length;
         int maxNum = 0;
 
-        int left = 0;
+        int left = -1;
         for(int right = 0; right < n; right++){
             if(forts[right] == 0) continue;
             if(left != -1 && forts[left] != forts[right]){
