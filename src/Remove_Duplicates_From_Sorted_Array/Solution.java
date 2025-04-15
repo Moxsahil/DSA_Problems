@@ -1,4 +1,4 @@
-package Remove_Deuplicates;
+package Remove_Duplicates_From_Sorted_Array;
 
 public class Solution {
 
